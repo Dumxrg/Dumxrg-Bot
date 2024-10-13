@@ -22,7 +22,7 @@ Dumxrg Bot es un poderoso bot hecho en JavaScript utilizando la librería de Wha
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tuusuario/dumxrg-bot.git
+    git clone https://github.com/Dumxrg/Dumxrg-Bot.git
     ```
 
 2. Instala las dependencias:
