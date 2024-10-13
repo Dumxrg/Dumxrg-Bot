@@ -11,7 +11,7 @@ Dumxrg Bot es un poderoso bot hecho en JavaScript utilizando la librería de Wha
 
 ## Comandos Disponibles
 
-- **/s**: [Descripción del comando]
+- **/s**: Crea un sticker a partir de una imagen
 - **/ping**: Verifica el estado del bot.
 - **/menú**: Muestra el menú principal con las opciones disponibles.
 
@@ -26,6 +26,7 @@ Dumxrg Bot es un poderoso bot hecho en JavaScript utilizando la librería de Wha
 2. Instala las dependencias:
     ```bash
     cd dumxrg-bot
+    pip install -r req.txt
     npm install
     ```
 
