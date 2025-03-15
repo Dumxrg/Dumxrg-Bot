@@ -2,21 +2,15 @@
 
 ¡Bienvenido a Dumxrg Bot! 🎉
 
-Dumxrg Bot es un poderoso bot hecho en JavaScript utilizando la librería de WhatsApp Web (`whatsapp-web.js`). Este bot te permite interactuar con WhatsApp de una manera divertida y eficiente. ¡Ideal para tus necesidades automatizadas de WhatsApp!
+Dumxrg Bot es un bot hecho en Typescript utilizando la librería de WhatsApp Web (`whatsapp-web.js`). 
 
 > [!WARNING]  
-> Este bot no esta terminado, y esta hecho por un inexperto, cabe la posibilidad de que falle...
+> Este bot no esta terminado, y esta hecho por un inexperto...
 ## Funcionalidades
 
-- **Comandos Personalizados**: Ejecute comandos como `/s`, `/ping`, `/menú` y más.
-- **Generación de QR**: Fácil configuración a través de códigos QR.
-
-## Comandos Disponibles
-
-- **/s**: Crea un sticker a partir de una imagen
-- **/ping**: Verifica el estado del bot.
-- **/menú**: Muestra el menú principal con las opciones disponibles.
-
+- **Plugins incorporados automaticamente**: Cree y importe con facilidad nuevos plugins para el bot.
+- **Guardar los mensajes entrantes**: El bot escribe los  mensajes entrantes automaticamente a un .txt
+- **Generación de QR**: Es fácil conectar con el bot gracias a la generacion con qr en la terminal.
 
 ## Instalación
 
@@ -28,20 +22,15 @@ Dumxrg Bot es un poderoso bot hecho en JavaScript utilizando la librería de Wha
 2. Instala las dependencias:
     ```bash
     cd dumxrg-bot
-    pip install -r req.txt
-    npm install
+    bun install
     ```
 
 3. Ejecuta el bot:
     ```bash
-    npm start
+    bun script.ts
     ```
 
 4. Escanea el código QR con tu aplicación de WhatsApp.
-
-## Uso
-
-Una vez configurado y ejecutado, simplemente abre tu WhatsApp y utiliza los comandos disponibles para interactuar con Dumxrg Bot.
 
 ## Contribución
 
